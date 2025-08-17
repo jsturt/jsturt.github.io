@@ -249,6 +249,13 @@ ul.task-list input[type="checkbox"] {
   margin-right: 10px;
 }
 
+@media (max-width: 100px) {
+  .main-logo {
+    height: 40px;
+  }
+}
+
+
 .navbar {
   box-shadow: none;
   border-bottom: 1px solid var(--global-divider-color);
