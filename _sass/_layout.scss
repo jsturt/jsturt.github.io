@@ -38,6 +38,72 @@ body.sticky-bottom-footer {
   }
 }
 
+/* Banner */
+
+/* Layout */
+.top-banner, .top-banner div {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.top-banner {
+    background: #052049;
+    height: 32px;
+    font-size: 14px;
+    text-align: center;
+    width: 100%;
+}
+
+.top-banner .inner {
+    margin: 0 auto;
+    width: 900px;
+}
+
+.top-banner div.inner div {
+    float: left;
+    padding: 8px 0 7px 30px;
+    text-align: left;
+}
+
+.top-banner.logo div.inner div {
+    padding: 13px 0 13px 0;
+}
+
+.top-banner.logo,.top-banner.logo .inner,.top-banner.logo div.inner div {
+    height: 40px;
+}
+
+.top-banner div.inner div.nav {
+    float: right;
+    padding-right: 16px;
+    text-align: right;
+}
+
+.top-banner ul, .top-banner li {
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+
+.top-banner a {
+    color: #ffffff;
+    display: inline;
+    text-decoration: none;
+}
+
+.top-banner a:hover {
+    text-decoration: none;
+    color: #052049;
+}
+
+.top-banner.logo .inner {
+    height: 40px;
+    background: url("../assets/img/logo.png") 30px 50% no-repeat;
+    padding-left: 97px;
+}
+
+
 // TODO: redefine content layout.
 
 /******************************************************************************
