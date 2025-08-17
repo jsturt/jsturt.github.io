@@ -243,6 +243,12 @@ ul.task-list input[type="checkbox"] {
 
 // Navbar customization
 
+.header-logo {
+  height: 40px;   /* scales cleanly */
+  width: auto;    /* keeps proportions */
+  margin-right: 10px;
+}
+
 .navbar {
   box-shadow: none;
   border-bottom: 1px solid var(--global-divider-color);
